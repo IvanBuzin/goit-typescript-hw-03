@@ -25,6 +25,9 @@ class Wizard implements ICharacter, ISpellCaster {
       throw new Error("Level too low");
     }
   }
+  introduse(phrase: string): void {
+    throw new Error("Method not implemented.");
+  }
 
   introduce(phrase: string): void {
     console.log(phrase + ", " + this.name);
